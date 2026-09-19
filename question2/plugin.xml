@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<library path="simple_controller">
+
+  <class
+    type="simple_controller::SimpleController"
+    base_class_type="nav2_core::Controller">
+
+    <description>
+      Simple proportional heading controller for Nav2.
+      Uses constant linear velocity and proportional angular velocity.
+    </description>
+
+  </class>
+
+</library>
